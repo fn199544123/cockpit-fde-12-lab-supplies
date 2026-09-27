@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "batches": [
+    {
+      "id": "B-1001",
+      "barcode": "990000001",
+      "name": "某企业试剂 A",
+      "place": "LAB-01",
+      "unit": "瓶",
+      "expiry": "2026-10-15",
+      "min": 10,
+      "qty": 8
+    },
+    {
+      "id": "B-1002",
+      "barcode": "990000002",
+      "name": "某企业耗材 B",
+      "place": "LAB-02",
+      "unit": "盒",
+      "expiry": "2027-03-26",
+      "min": 20,
+      "qty": 64
+    },
+    {
+      "id": "B-1003",
+      "barcode": "990000003",
+      "name": "某企业试剂 C",
+      "place": "LAB-01",
+      "unit": "瓶",
+      "expiry": "2026-09-22",
+      "min": 5,
+      "qty": 12
+    },
+    {
+      "id": "B-1004",
+      "barcode": "990000004",
+      "name": "某企业耗材 D",
+      "place": "LAB-03",
+      "unit": "包",
+      "expiry": "2027-09-27",
+      "min": 10,
+      "qty": 6
+    }
+  ],
+  "logs": [
+    {
+      "id": "TX-DEMO-1",
+      "time": "2026-09-27T13:52:46.870Z",
+      "batch": "B-1001",
+      "name": "某企业试剂 A",
+      "unit": "瓶",
+      "type": "in",
+      "qty": 8,
+      "before": 0,
+      "after": 8,
+      "note": "演示初始入库",
+      "actor": "douyin"
+    },
+    {
+      "id": "TX-DEMO-2",
+      "time": "2026-09-27T13:52:46.870Z",
+      "batch": "B-1002",
+      "name": "某企业耗材 B",
+      "unit": "盒",
+      "type": "in",
+      "qty": 64,
+      "before": 0,
+      "after": 64,
+      "note": "演示初始入库",
+      "actor": "douyin"
+    },
+    {
+      "id": "TX-DEMO-3",
+      "time": "2026-09-27T13:52:46.870Z",
+      "batch": "B-1003",
+      "name": "某企业试剂 C",
+      "unit": "瓶",
+      "type": "in",
+      "qty": 12,
+      "before": 0,
+      "after": 12,
+      "note": "演示初始入库",
+      "actor": "douyin"
+    },
+    {
+      "id": "TX-DEMO-4",
+      "time": "2026-09-27T13:52:46.870Z",
+      "batch": "B-1004",
+      "name": "某企业耗材 D",
+      "unit": "包",
+      "type": "in",
+      "qty": 6,
+      "before": 0,
+      "after": 6,
+      "note": "演示初始入库",
+      "actor": "douyin"
+    }
+  ]
+}
